@@ -172,7 +172,7 @@
 @media (max-width: 1400px) {
   .pricing {
     width: 90%;
-    height: 90%;
+    height: 95%;
   }
 }
 @media (max-width: 1200px) {
@@ -180,12 +180,12 @@
     height: 1200px;
   }
   .pricing {
-    height: 90%;
+    height: 95%;
   }
 }
 @media (max-width: 800px) {
   .container6 {
-    height: 1700px;
+    height: 1400px;
   }
   .basic-list ul li {
     font-size: 12px;
@@ -207,5 +207,13 @@
   }
   .container6 .pricing .pricing-options p {
     font-size: 12px;
+  }
+  .basic {
+    width: 280px;
+    height: 360px;
+  }
+  .basic1 {
+    width: 280px;
+    height: 400px;
   }
 }
