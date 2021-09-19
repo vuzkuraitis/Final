@@ -100,6 +100,7 @@
   margin-bottom: 10px;
 }
 .dollar {
+  visibility: visible;
   transform: translateY(20px);
   font: normal normal normal 36px/24px Montserrat;
   letter-spacing: 0px;
@@ -174,75 +175,13 @@
     height: 90%;
   }
 }
-@media (max-width: 1225px) {
-  .basic {
-    width: 280px;
-    height: 360px;
-  }
-  .basic1 {
-    width: 280px;
-    height: 400px;
-  }
-  .basic1 .green1 {
-    font-size: 12px;
-  }
-  .basic-list ul li {
-    font-size: 12px;
-  }
-  .container6 .pricing .basic h1 {
-    font-size: 80px;
-  }
-  .container6 .pricing .basic1 h1 {
-    font-size: 80px;
-  }
-  .container6 .pricing .basic h3 {
-    font-size: 16px;
-  }
-  .container6 .pricing .basic1 h3 {
-    font-size: 16px;
+@media (max-width: 1200px) {
+  .container6 {
+    height: 1200px;
   }
 }
-@media (max-width: 1020px) {
-  .basic {
-    width: 240px;
-    height: 320px;
-  }
-  .basic1 {
-    width: 240px;
-    height: 360px;
-  }
-  .pricing-options h1 {
-    font-size: 24px;
-  }
-  .pricing-options p {
-    font-size: 12px;
-  }
-}
-@media (max-width: 860px){
-.container6 {
-  height: 1450px;
-}
-.pricing {
-  align-items: flex-start;
-  row-gap: 15px;
-  }
-}
-.basic {
-  width: 200px;
-  height: 280px;
-}
-.basic1 {
-  width: 200px;
-  height: 320px;
-}
-@media (max-width: 575px){
-.container6 {
-  height: 1450px;
-  }
-  .feedback-header h1{
-    text-align: center
-  }
-  .pricing-options h1 {
-    font-size: 20px;
+@media (max-width: 800px) {
+  .container6 {
+    height: 1700px;
   }
 }
