@@ -220,16 +220,24 @@
 }
 @media (max-width: 860px){
 .container6 {
-  height: 1300px;
+  height: 1450px;
 }
 .pricing {
   align-items: flex-start;
   row-gap: 15px;
   }
 }
+.basic {
+  width: 200px;
+  height: 280px;
+}
+.basic1 {
+  width: 200px;
+  height: 320px;
+}
 @media (max-width: 575px){
 .container6 {
-  height: 1350px;
+  height: 1450px;
   }
   .feedback-header h1{
     text-align: center
