@@ -9,23 +9,59 @@ nav {
   z-index: 1;
 }
 a {
+  position: relative;
   text-decoration: none;
   font: normal normal normal 14px/17px Montserrat;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 0.7;
+  line-height: 40px;
+  overflow: hidden;
 }
+.top-nav li a::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 25%;
+  transform: translateX(-102%);
+  background: #E27866;
+  transition: transform 0.3s;
+}
+.top-nav li a:hover::before {
+    transform: translateX(1%);
+    opacity: 1;
+}
+
+// .top-nav li::after {
+//   content: "";
+//   position: absolute;
+//   bottom: 30px;
+//   width: 50%;
+//   height: 3%;
+//   transform: translateX(3%);
+//   background: #E27866;
+//   transition: transform 0.3s;
+//   transition-delay: 0.3s;
+// }
+// .top-nav li:hover::after {
+//     transform: translateX(-100%);
+// }
 a:hover {
   opacity: 1;
 }
 ul {
   width: 600px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
 }
 li {
   list-style: none;
   margin: 0;
+  overflow: hidden;
 }
 h3 {
   display: flex;
@@ -70,7 +106,11 @@ button {
   opacity: 1;
   margin: 4% 0;
 }
-
+.inner-container1 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 label {
   width: 30%;
   font-size: 9px;
